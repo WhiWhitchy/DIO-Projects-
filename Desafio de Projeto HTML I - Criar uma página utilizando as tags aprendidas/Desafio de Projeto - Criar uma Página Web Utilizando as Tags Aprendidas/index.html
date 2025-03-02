@@ -12,67 +12,69 @@
      
         <h1 style="text-align: center;">Boas práticas para o desenvolvimento de projetos em HTML</h1>
         <hr>
-        <h3>Tópicos</h3>
+        <h2>Tópicos</h2>
         <ul>
             <li><a href="#html">O que é HTML?<a></li>
             <li><a href="#bp">O que são boas práticas na programação ?<a></li>
             <li><a href="#cb-praticas">Algumas práticas<a>
-                <ul>
+                <ol>
                     <li><a href="#">Atenção com o cabeçalho<a></li>
                     <li><a href="#">Não pule numerações de cabeçalho<a></li>
                     <li><a href="#">Tag figure para imagens<a></li>
-                    <li><a href="#">Não use div como cabeçalho ou rodapé<a></li>
-                </ul>
+                    <li><a href="#">Não use div como <sup>cabeçalho</sup> ou <sub>rodapé</sub><a></li>
+                </ol>
             </li>
             <li><a href="#referencias">Referências Bibliográficas<a>
         </ul>
 
         <hr>
-        <h2 id="html">O que é <abbr title="Hyper Text Markup Language"><strong>HTML</strong></abbr>?</h2>
-        <p style="text-indent: 3rem;"> <abbr title="Hyper Text Markup Language"><strong>HTML</strong></abbr> é uma linguagem de marcação utilizada para montar páginas <em>web</em>, 
+        <h3 id="html">O que é <abbr title="Hyper Text Markup Language"><strong>HTML</strong></abbr>?</h3>
+        <p style="text-indent: 3rem;"> <abbr title="Hyper Text Markup Language"><u>HTML</u></abbr> é uma linguagem de marcação utilizada para montar páginas <i>web</i>, 
         ele é a estrutura do site e por conta disso é importante se atentar a algumas questões em relação a como o arquivo é organizado.
         Então, nesse artigo veremos algumas boas práticas úteis para melhorar a estrutura de projetos em <abbr title="Hyper Text Markup Language"><strong>HTML</strong></abbr>.</p>
 
-        <h2 id="bp" >O que são boas práticas na programação?</h2>
+        <h3 id="bp" >O que são boas práticas na programação?</h3>
         <p style="text-indent: 3rem;">São ações que servem para conseguir desenvolver aplicações faceis de manter, de ler e adicionar ou tirar itens sem atrapalhar a estrutura 
         como um todo.</p>
 
-        <h2 id="cb-praticas">Aqui estão algumas questões para se ter em mente ao criar um site em <abbr title="Hyper Text Markup Language"><strong>HTML</strong></abbr>:</h2>
-        <small>*Não seguir boas práticas não significa que o seu site não funciona apenas que ele não faz o uso de determinados componentes da forma como determina o manual a linguagem.</small>
+        <h3 id="cb-praticas">Aqui estão algumas questões para se ter em mente ao criar um site em <abbr title="Hyper Text Markup Language"><strong>HTML</strong></abbr>:</h3>
+        <small><blockquote>*Não seguir boas práticas não significa que o seu site não funciona apenas que ele não faz o uso de determinados componentes da forma como determina o manual a linguagem.</blockquote></small>
         
-        <h3 style="text-indent: 3rem;">Atenção com o cabeçalho</h3>
-        <p style="text-indent: 3rem;">No <abbr title="Hyper Text Markup Language"><strong>HTML</strong></abbr> há cabeçalhos que variam entre <strong>h1</strong> e vai até o 
-        <strong>h6</strong>, a numeração desses cabeçalhos mostra a importância de cada um, sendo que o mais importante é o <strong>h1</strong>.</p>
-        <p  style="text-indent: 3rem;">Por ser o principal, é importante evitar ter mais de um <strong>h1 (titulo principal)</strong> em seu projeto, pois ele é o componente que mecanismos de pesquisa utilizam para 
+        <h4 style="text-indent: 3rem;">Atenção com o cabeçalho</h4>
+        <p style="text-indent: 3rem;">No <abbr title="Hyper Text Markup Language"><strong>HTML</strong></abbr> há cabeçalhos que variam entre <strong><mark>h1</mark></strong> e vai até o 
+        <strong><mark>h6</mark></strong>, a numeração desses cabeçalhos mostra a importância de cada um, sendo que o mais importante é o <strong><mark>h1</mark></strong>.</p>
+        <p  style="text-indent: 3rem;">Por ser o principal, é importante evitar ter mais de um <strong><mark>h1</mark> (titulo principal)</strong> em seu projeto, pois ele é o componente que mecanismos de pesquisa utilizam para 
         identificar o assunto principal da sua página <em>web</em>.</p>
         <br>
-        <h3 style="text-indent: 3rem;">Não pule numerações de cabeçalho</h3>
-        <p style="text-indent: 3rem;">Pular a sequência de numeração de cabeçalho (colocar um h1 e em seguida um h6) pode dificultar a leitura do código.</p>
+        <h4 style="text-indent: 3rem;">Não pule numerações de cabeçalho</h4>
+        <p style="text-indent: 3rem;">Pular a sequência de numeração de cabeçalho (colocar um <mark>h1</mark> e em seguida um <mark>h6</mark>) pode dificultar a leitura do código.</p>
         <br>
-        <h3 style="text-indent: 3rem;">Tag figure para imagens</h3>
+        <h4 style="text-indent: 3rem;">Tag figure para imagens</h4>
         <p style="text-indent: 3rem;">Isso ajuda para caso dê um erro no site e a imagem colocada seja perdida, o componente <strong>alt</strong> irá aparecer como texto o que pode 
         ser de dificil leitura do usuário. Adicionar as <em>tags</em> <strong>figure</strong> e <strong>figcaption</strong> pode ajudar a resolver esse problema.</p>
         <p style="text-indent: 3rem;">Utilizar o <strong>figcaption</strong> também contribui para os mecanismos de pesquisa de identificarem o conteúdo da sua página.</p>
         <br>
-        <h3 style="text-indent: 3rem;">Não use div como cabeçalho ou rodapé</h3>
+        <h4 style="text-indent: 3rem;">Não use <del>div</del> como cabeçalho ou rodapé</h4>
         <p style="text-indent: 3rem;">Por ser um elemento importante para a estrutura do site é preciso conhecer e utilizar as tags apropriadas para cada componente.</p>
         <p style="text-indent: 3rem;">Nesse caso para cabeçalho <strong>header</strong> e para rodape <strong>footer</strong>.</p>
         <br>
-          <h4 id="referencias">REFERÊNCIAS BIBLIOGRÁFICAS<hr></h4>
-            <p><strong>CESS. <a href="https://www.freecodecamp.org/news/html-best-practices/" alt="sdfdf"> 
+          <h5 id="referencias">REFERÊNCIAS BIBLIOGRÁFICAS<hr></h5>
+          <p><strong>CESS. <a href="https://www.freecodecamp.org/news/html-best-practices/" alt="sdfdf"> 
             HTML Best Practices - How to Build a Better HTML-Based Website </strong></a>
             <br>Acesso em: 26 Fev. 2025</p>
           
-            <p> <strong>mdn web docs. <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML"> 
+            <p><strong>mdn web docs. <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML"> 
             HTML: A good basis for accessibility</strong></a>
             <br>Acesso em: 26 Fev. 2025 </p>
     
-            <p> <strong>Iryne Vanessa Somera.x <a href="https://kinsta.com/blog/html-best-practices/"> 
+            <p><strong>Iryne Vanessa Somera.x <a href="https://kinsta.com/blog/html-best-practices/"> 
             HTML Best Practices to Build Maintainable and Scalable Websites</strong></a>
             <br>Acesso em: 26 Fev. 2025 </p>
     
-            <p> <strong>W3Schools. <a href="https://www.w3schools.com/html/html_blocks.asp"> 
+            <p><strong>W3Schools. <a href="https://www.w3schools.com/html/html_blocks.asp"> 
             HTML Block and Inline Elements</strong></a>
             <br>Acesso em: 28 Fev. 2025 </p>
+
+            <h6>All rights reserved</h6>
     </body>
 </html>
